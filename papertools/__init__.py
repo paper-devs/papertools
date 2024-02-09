@@ -21,12 +21,11 @@ if not discord.version_info.major >= 2:
         "using 'pip install discord.py'",
     )
 
-__version__ = "1.1.1"
+__version__ = "1.1.2"
 __title__ = "papertools"
 __author__ = "aiokev"
 __license__ = "GPL-3.0"
 __copyright__ = "Copyright (c) 2023, aiokev"
 
-import button_paginator as paginator
 from .num_methods import Converter
 from .timetools import TimeTools
