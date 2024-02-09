@@ -1,0 +1,16 @@
+*.pyc
+.git/
+__pycache/
+dist/
+papertools.egg-info/
+docs/_build/
+build/
+.gitpod.yml
+.python-version
+Pipfile.lock
+.mypy_cache/
+.vscode/
+.venv/
+*.code-workspace
+*.ini
+.pypirc
