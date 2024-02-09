@@ -3,16 +3,16 @@ import math
 
 class Converter:
     def __init__(self):
-        super().__init__()
         """A class which offers a few methods to convert numbers to a different format."""
+        super().__init__()
 
-    def roundnum(number: float):
+    def roundnum(self, number: float):
         return round(float(number))
 
-    def formatnum(number: float):
+    def formatnum(self, number: float):
         return format((float(number)), ",")
 
-    def tosuffix(number: float):
+    def tosuffix(self, number: float):
         suffixes = [
             "",
             "K",
@@ -128,7 +128,7 @@ class Converter:
                     + suffixes[i - 1].upper()
                 )
 
-    def fromsuffix(number: str):
+    def fromsuffix(self, number: str):
         suffixes = {
             "K": 3,
             "M": 6,
