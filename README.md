@@ -32,12 +32,12 @@ Here's a quick example:
 
 ```py
 import papertools
-from papertools import paginator as pg
 
 import discord
 
 converter = papertools.Converter()
 timetools = papertools.TimeTools()
+pg = papertools.paginator
 
 class MyBot(commands.Bot):
 

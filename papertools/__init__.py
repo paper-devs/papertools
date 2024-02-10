@@ -27,5 +27,6 @@ __author__ = "aiokev"
 __license__ = "GPL-3.0"
 __copyright__ = "Copyright (c) 2023, aiokev"
 
-from .num_methods import Converter
-from .timetools import TimeTools
+from .num_methods import *
+from .timetools import *
+from .paginator import *
