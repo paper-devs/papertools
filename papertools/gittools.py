@@ -6,7 +6,7 @@ class GitTools:
         """A class which offers git related commands."""
         super().__init__()
 
-    async def pull(self):
+    def pull(self):
         try:
             result = subprocess.run(["git", "pull"], stdout=subprocess.PIPE)
             output = result.stdout.decode("utf-8")
