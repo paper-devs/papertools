@@ -15,7 +15,7 @@ class Discord:
         """A class which offers tons of usefull features for discord.py bots."""
         super().__init__()
 
-    async def embed(params):
+    async def embed(self, params):
 
         x = {}
         fields = []
