@@ -3,13 +3,10 @@
 ![](https://avatars.githubusercontent.com/u/159441854?s=200&v=4)
 
 [![GPL](https://img.shields.io/github/license/paper-devs/papertools?color=2f2f2f)](https://github.com/paper-devs/papertools/blob/main/LICENSE) ![](https://img.shields.io/pypi/pyversions/papertools?color=2f2f2f) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Discord](https://img.shields.io/discord/991705424866852977?color=%237289DA&label=Paper%20Devs&logo=discord&logoColor=white)](https://discord.gg/JV8CmQM7ma) [![Read the Docs](https://readthedocs.org/projects/papertools/badge/?version=latest)](https://papertools.readthedocs.io/en/latest/)
 
 PaperTools is a module which offers tons of usefull features for [discord.py](https://github.com/Rapptz/discord.py) bots.
 
 ## Quick Links
-- [Discord Server](https://discord.gg/JV8CmQM7ma)
-- [Read the Docs](https://papertools.readthedocs.io/en/latest/)
 - [PyPI Homepage](https://pypi.org/project/papertools/)
 
 # Install
