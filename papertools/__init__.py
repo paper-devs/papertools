@@ -8,9 +8,9 @@ Copyright (c) 2023, aiokev
 Licensed under GPL-3.0
 """
 
-import discord
+import discord as discordpy
 
-if not discord.version_info.major >= 2:
+if not discordpy.version_info.major >= 2:
 
     class DiscordPyOutdated(Exception):
         pass
@@ -21,7 +21,7 @@ if not discord.version_info.major >= 2:
         "using 'pip install discord.py'",
     )
 
-__version__ = "0.1.0"
+__version__ = "0.2.0a"
 __title__ = "papertools"
 __author__ = "aiokev"
 __license__ = "GPL-3.0"
@@ -31,3 +31,4 @@ from .num_methods import *
 from .timetools import *
 from .paginator import *
 from .gittools import *
+from .discord import *
