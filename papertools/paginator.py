@@ -334,10 +334,6 @@ class Paginator(discord.ui.View):
         view = self.view
         view.clear_items()
         self.stop()
-        try:
-            self.clear_items()
-        except Exception as e:
-            pass
 
     def update_view(self):
         try:
