@@ -1,5 +1,4 @@
 from inspect import iscoroutinefunction as iscoro, isfunction as isfunc
-import asyncio
 import discord
 
 
@@ -334,8 +333,11 @@ class Paginator(discord.ui.View):
     async def on_timeout(self):
         view = self.view
         view.clear_items()
-        await self.message.edit(view=None)
         self.stop()
+        try:
+            self.clear_items()
+        except Exception as e:
+            pass
 
     def update_view(self):
         try:
