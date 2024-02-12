@@ -334,10 +334,7 @@ class Paginator(discord.ui.View):
     async def on_timeout(self):
         view = self.view
         view.clear_items()
-        try:
-            await self.message.edit(view=None)
-        except:
-            pass
+        await self.message.edit(view=None)
         self.stop()
 
     def update_view(self):

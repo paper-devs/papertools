@@ -21,7 +21,7 @@ if not discordpy.version_info.major >= 2:
         "using 'pip install discord.py'",
     )
 
-__version__ = "0.2.0a"
+__version__ = "0.2.1a"
 __title__ = "papertools"
 __author__ = "aiokev"
 __license__ = "GPL-3.0"
