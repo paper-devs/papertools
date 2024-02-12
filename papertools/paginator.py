@@ -331,8 +331,7 @@ class Paginator(discord.ui.View):
             raise ValueError
 
     async def on_timeout(self):
-        view = self.view
-        view.clear_items()
+        self.clear_items()
         self.stop()
 
     def update_view(self):
