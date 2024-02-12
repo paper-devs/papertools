@@ -183,7 +183,10 @@ class Paginator(discord.ui.View):
         if error_color == None:
             self.color = int("d6bcd0", 16)
         else:
-            self.color = int(error_color, 16)
+            try:
+                self.color = int(error_color, 16)
+            except:
+                self.color = error_color
         self.check = check
         self.bot = bot
         self.attachments = attachments
