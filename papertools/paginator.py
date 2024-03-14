@@ -307,7 +307,7 @@ class Paginator(discord.ui.View):
                 return await interaction.response.send_message(
                     ephemeral=True,
                     embed=discord.Embed(
-                        description=f"{emoji} You're not the **author** of this embed!",
+                        description=f"{emoji} {interaction.user.mention}: You can't interact with this menu.",
                         color=self.color,
                     ),
                 )
